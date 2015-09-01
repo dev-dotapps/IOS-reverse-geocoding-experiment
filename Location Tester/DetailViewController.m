@@ -49,7 +49,7 @@
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
 {
-    [self.locationManager stopUpdatingLocation];
+    //[self.locationManager stopUpdatingLocation];
     
     CLLocation *location = [locations lastObject];
     CLLocationDegrees lat = location.coordinate.latitude;

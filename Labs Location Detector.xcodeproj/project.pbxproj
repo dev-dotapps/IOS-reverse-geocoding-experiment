@@ -198,10 +198,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
-				ORGANIZATIONNAME = "Ani Tumanyan";
+				ORGANIZATIONNAME = Iter8;
 				TargetAttributes = {
 					816600B91B936AC50036405C = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 4XM9C265S2;
 					};
 					816600D81B936AC50036405C = {
 						CreatedOnToolsVersion = 6.4;
@@ -209,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 816600B51B936AC50036405C /* Build configuration list for PBXProject "Location Tester" */;
+			buildConfigurationList = 816600B51B936AC50036405C /* Build configuration list for PBXProject "Labs Location Detector" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -419,9 +420,15 @@
 			baseConfigurationReference = 8D6972A0FCA165AC8429BD1F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Location Tester/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.iter8.labs.LocationDetector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -430,9 +437,15 @@
 			baseConfigurationReference = FE75E2C0CB79FBA425583BDC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Location Tester/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.iter8.labs.LocationDetector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -473,7 +486,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		816600B51B936AC50036405C /* Build configuration list for PBXProject "Location Tester" */ = {
+		816600B51B936AC50036405C /* Build configuration list for PBXProject "Labs Location Detector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				816600E11B936AC50036405C /* Debug */,

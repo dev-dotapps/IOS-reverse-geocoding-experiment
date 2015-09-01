@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Location Tester.xcodeproj">
+      location = "group:/Users/ars/Projects/IOS-reverse-geocoding-experiment/Labs Location Detector.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
